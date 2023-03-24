@@ -1,9 +1,11 @@
+use std::collections::HashMap;
+
+use serde::Deserialize;
+use url::Url;
+
 use crate::error::ShodanError;
 use crate::error::ShodanError::ShodanClientError;
 use crate::response::ShodanClientResponse;
-use serde::Deserialize;
-use std::collections::HashMap;
-use url::Url;
 
 pub mod account;
 pub mod api_status;
